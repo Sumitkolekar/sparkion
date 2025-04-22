@@ -1,0 +1,271 @@
+/* ===== Responsive Design Start ===== */
+@media (max-width: 1200px) {
+    .container, .Servcontainer, .work-container {
+      width: 95%;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      height: auto;
+    }
+  
+    .section-container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .leftsection, .rightsection {
+      width: 100%;
+      height: auto;
+    }
+  
+    .rightsection img {
+        width: 51%;
+        height: 80vh;
+    }
+  
+    .Servbox {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+  
+    .carousel-item {
+      min-width: 350px;
+      height: 250px;
+    }
+  }
+
+  @media (max-width:1101px) {
+    
+    #navbar{
+      flex-direction: column;  
+    }
+
+    #navbar ul li a{
+      font-size: 18px;
+      padding: 5px 30px;
+    }
+    #name{
+      font-size: 25px;
+    }
+    #logo img{
+      height: 52px;
+    }
+  }
+  
+   @media (max-width: 992px) { 
+    #navbar ul {
+      flex-wrap: wrap;
+      justify-content:  center;
+    }
+  
+    #navbar ul li a {
+      padding: 6px 18px;
+    }
+  
+    .welcomeText h2 {
+      font-size: 32px;
+    }
+  
+    .formcontrol {
+      width: 70%;
+    }
+  
+    .submit-btn {
+      width: 30%;
+    }
+  
+    .movingbox, .movingbox img {
+      width: 20vw;
+      height: 20vw;
+    }
+  
+    .Servbox {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .stats-container {
+      flex-direction: column;
+      height: auto;
+      gap: 20px;
+      padding: 20px 0;
+    }
+  
+    .stat-box {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .FirstChild, .SecondChild, .ThirdChild {
+      height: 400px;
+      background-position: center;
+    }
+  
+    #text-overly h1 {
+      font-size: 28px;
+    }
+  
+    #text-overly p {
+      font-size: 16px;
+    }
+  
+    .btn a {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    .leftsection, .rightsection {
+      width: 100%;
+      height: auto;
+    }
+
+    .Servcontainer {
+      flex-direction: column;
+      width: 100%;
+  }
+  .box,
+  .Servbox {
+      flex-basis: calc(50% - 10px); /* 2 columns on tablets */
+      width: 100% !important;
+      margin: 10px 0;
+  }
+    .carousel-item {
+      min-width: 280px;
+      height: 200px;
+    }
+  
+    .formcontrol {
+      width: 85%;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #logo img {
+      height: 48px;
+    }
+  
+    #name {
+      font-size: 20px;
+    }
+   
+      #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px 20px;
+      }
+    
+      .hamburger {
+        display: block;
+        margin-left: auto;
+      }
+    
+      #navbar ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #ff841a; /* Match original color */
+      }
+    
+      #navbar ul.show {
+        display: flex;
+      }
+    
+      #navbar ul li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+      }
+    
+      #navbar ul li a {
+        font-size: 14px;
+        padding: 5px;
+        display: block;
+        width: 100%;
+        border-top: 1px solid rgba(0,0,0,0.2);
+      }
+    
+    
+  
+     /* #navbar ul li a {
+      font-size: 16px;
+      padding:10px;
+    }  */
+    
+    .btn{
+      margin-top: 50px;
+    }
+    #text-overly p {
+      text-align: start;
+  }
+    /* .welcomeText h2 {
+      font-size: 24px;
+    } */
+
+
+  
+    .welcomeText p {
+      font-size: 14px;
+      line-height: 25px;
+    }
+    .front h2{
+      font-size: 20px;
+    }
+  
+    .submit-btn {
+      width: 50%;
+    }
+    
+    .leftsection h2 {
+      font-size: 24px;
+  }
+    .rightsection img{
+      width: 95%;
+    height: 56vh;
+    }
+  .moving-container {
+    height: 100px;
+    font-size: 12px;
+  }
+    .movingbox {
+      width: 20vw;
+      height: 20vw;
+    }
+  
+    .movingbox img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .carousel-item {
+      min-width: 250px;
+      height: 180px;
+    }
+  
+    .workbox {
+      width: 150px;
+      height: 150px;
+      font-size: 14px;
+    }
+  
+    .formcontrol {
+      width: 90%;
+    }
+  
+    .footer-box {
+      flex: 1 1 100%;
+    }
+  
+    .stat-box {
+      width: 100%;
+    }
+  }
+  /* ===== Responsive Design End ===== */
+  
