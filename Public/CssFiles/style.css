@@ -120,7 +120,7 @@ html {
     
 }
 .FirstChild{
-    background-image: url('/Public/images/img1.jpg')  ;
+    background-image: url('Public/images/img1.jpg')  ;
 
 }
 .SecondChild {
