@@ -120,15 +120,15 @@ html {
     
 }
 .FirstChild{
-    background-image: url('/images/img1.jpg')  ;
+    background-image: url('../images/img1.jpg')  ;
 
 }
 .SecondChild {
-    background-image: url('/images/img2.jpg') ;
+    background-image: url('../images/img2.jpg') ;
 }
 
 .ThirdChild {
-    background-image: url('/images/img3.jpg') ;
+    background-image: url('../images/img3.jpg') ;
 }
 .btn {
     position: absolute;
