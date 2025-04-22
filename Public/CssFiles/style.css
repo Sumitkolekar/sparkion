@@ -120,11 +120,11 @@ html {
     
 }
 .FirstChild{
-    background-image: url('/sparkion/images/img1.jpg')  ;
+    background-image: url('sparkion/images/img1.jpg')  ;
 
 }
 .SecondChild {
-    background-image: url('../images/img2.jpg') ;
+    background-image: url('./images/img2.jpg') ;
 }
 
 .ThirdChild {
