@@ -120,15 +120,15 @@ html {
     
 }
 .FirstChild{
-    background-image: url('../images/img1.jpg')  ;
+    background-image: url('../Public/images/img1.jpg')  ;
 
 }
 .SecondChild {
-    background-image: url('../images/img2.jpg') ;
+    background-image: url('../Public/images/img2.jpg') ;
 }
 
 .ThirdChild {
-    background-image: url('../images/img3.jpg') ;
+    background-image: url('../Public/images/img3.jpg') ;
 }
 .btn {
     position: absolute;
@@ -450,7 +450,7 @@ html {
 }
 
 .stats-container {
-    background: url('../images/statback.jpg.jpg') no-repeat center center/cover;
+    background: url('../Public/images/statback.jpg.jpg') no-repeat center center/cover;
     opacity: 0.9;
     width: 100%;
     height: 360px;
@@ -698,7 +698,7 @@ footer {
   
   .footer-top {
     position: relative;
-    background-image: url('../images/footerbg.jpg');
+    background-image: url('../Public/images/footerbg.jpg');
     background-size: cover;
     background-position: center;
     color: white;
